@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>app.kickbot.kickbot.pi</title>
+    <meta charset="UTF-8" />
+    <!-- Import style sheets -->
+    <link rel="stylesheet" type="text/css" href="css/sdpi.css" />
+    <link rel="stylesheet" type="text/css" href="css/pi.css" />
+    <!-- Import scripts -->
+    <script src="../plugin/js/utils.js"></script>
+    <script src="js/pi.js"></script>
+    <script src="js/clipLengthPI.js"></script>
+    <script src="js/slowModePI.js"></script>
+    <script src="js/clearChatPI.js"></script>
+    <script src="js/main.js"></script>
+  </head>
+  <body>
+    <!-- Property Inspector -->
+    <div class="sdpi-wrapper" id="pi">
+      <!-- API key entry -->
+      <div class="sdpi-item">
+        <div class="sdpi-item-label" id="api-key-label">KickBot Key</div>
+        <input class="sdpi-item-value" id="api-key-input" type="password" required />
+      </div>
+
+      <!-- Placeholder for more UI elements -->
+      <div id="placeholder"></div>
+    </div>
+    <!-- Floating tooltips element -->
+    <div class="sdpi-info-label hidden" style="top: -1000px" data-value=""></div>
+  </body>
+</html>

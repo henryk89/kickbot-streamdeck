@@ -1,0 +1,7 @@
+.temperature::-webkit-slider-runnable-track {
+  background-image: linear-gradient(to right, #faa04e, #86c6e8) !important;
+}
+
+.temperature::-webkit-slider-thumb {
+  background-color: #86c6e8 !important;
+}

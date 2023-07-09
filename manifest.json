@@ -1,0 +1,54 @@
+{
+  "Actions": [
+    {
+      "Icon": "images/icons/clapper",
+      "Name": "Create Clip",
+      "States": [
+        {
+          "Image": "images/actions/clapper"
+        }
+      ],
+      "Tooltip": "Create a clip of the past 30 seconds",
+      "UUID": "app.kickbot.kickbot.clip"
+    },
+    {
+      "Icon": "images/icons/broom",
+      "Name": "Clear Chat",
+      "States": [
+        {
+          "Image": "images/actions/broom"
+        }
+      ],
+      "Tooltip": "Delete all messages from chat",
+      "UUID": "app.kickbot.kickbot.clear"
+    }
+  ],
+  "SDKVersion": 2,
+  "Author": "KickBot",
+  "CodePath": "plugin/index.html",
+  "Description": "The official plugin of KickBot, the #1 tool for Kick streamers. Create clips and manage your chat with ease.",
+  "Name": "KickBot",
+  "Icon": "images/kickbot",
+  "Category": "KickBot",
+  "CategoryIcon": "images/kickbot",
+  "PropertyInspectorPath": "pi/index.html",
+  "URL": "https://kickbot.app",
+  "Version": "1.0.0",
+  "DefaultWindowSize": [
+    500,
+    650
+  ],
+  "OS": [
+    {
+      "Platform": "mac",
+      "MinimumVersion": "10.11"
+    },
+    {
+      "Platform": "windows",
+      "MinimumVersion": "10"
+    }
+  ],
+  "Software": {
+    "MinimumVersion": "5.0"
+  }
+}
