@@ -14,7 +14,7 @@ function SlowMode(inContext, inSettings) {
         const xhr = new XMLHttpRequest();
         
         // Set up the API request
-        xhr.open('POST', 'https://6520-96-42-248-2.ngrok-free.app/api/sd_slow_mode', true);
+        xhr.open('POST', 'https://kickbot.app/api/sd_slow_mode', true);
         xhr.setRequestHeader('Content-Type', 'application/json');
         
         // Define the callback function to handle the API response
